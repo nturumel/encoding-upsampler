@@ -37,13 +37,13 @@ You're provided with 32-dimensional embeddings that have been transformed from t
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/embedding-upsampling.git
+git clone https://github.com/nturmel/embedding-upsampling.git
 
 # Navigate into the directory
 cd embedding-upsampling
 
 # Install required packages
-pip install -r requirements.txt
+poetry install
 ```
 
 ## Code Structure
@@ -53,8 +53,8 @@ pip install -r requirements.txt
 
 ## Usage
 
-To run the code, simply open `main.ipynb` in a Jupyter Notebook environment and execute the cells.
+To run the code, simply open `connectly.ipynb` in a Jupyter Notebook environment and execute the cells.
 
 ## Testing
 
-The last section of `main.ipynb` includes code to test the model on a test dataset.
+The last section of `connectly.ipynb` includes code to test the model on a test dataset.
